@@ -108,8 +108,8 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-7xl mx-auto flex justify-between items-center p-6">
           <div onClick={() => setIsLogoOpen(true)} className="flex items-center gap-3 group cursor-pointer">
-            <img src="/ovalbox-logo.png" alt="Logo" className="h-10 w-auto group-hover:rotate-6 transition-all" />
-            <h1 className="text-xl font-black italic tracking-tighter uppercase">Oval Box Arena</h1>
+            <img src="/ovalbox-logo.png" alt="Oval Box Arena" className="h-10 w-auto group-hover:rotate-6 transition-all duration-500" />
+            <h1 className="text-xl font-black italic tracking-tighter group-hover:text-arena-green transition-colors uppercase">Oval Box Arena</h1>
           </div>
           <div className="hidden md:flex gap-10 text-[10px] font-black uppercase tracking-[0.2em] text-gray-500">
             <a href="#sports" className="hover:text-arena-green">Sports</a>
